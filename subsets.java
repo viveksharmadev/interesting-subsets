@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/subsets/
 class subsets {
-    // tc -> 2^n, sc-> n
+    // tc -> n*2^n, sc-> n*2^n
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if(nums==null || nums.length==0) return res;
